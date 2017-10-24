@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phoneword.TabbedPage1">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Tab 1">
+        <Button x:Name="translateButon" Text="Translate"/>
+    </ContentPage>
+    <ContentPage Title="Tab 2">
+        <Button x:Name="translateButon2" Text="Translate"/>
+    </ContentPage>
+    <ContentPage Title="Tab 3">
+        <Label Text="Silvio is een NOOB"></Label>    
+    </ContentPage>
+    
+</TabbedPage>
