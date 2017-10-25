@@ -13,4 +13,5 @@
     <StackLayout>
         <ListView ItemsSource="{x:Static local:App.PhoneNumbers}" />
     </StackLayout>
+    
 </ContentPage>

@@ -16,5 +16,6 @@
         <Button x:Name="callButton" Text="Call" IsEnabled="false" Clicked="OnCall" />
         <Button x:Name="callHistoryButton" Text="Call History" IsEnabled="false"
           Clicked="OnCallHistory" />
+        
     </StackLayout>
 </ContentPage>
