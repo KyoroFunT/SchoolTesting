@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Net;
 
 namespace Phoneword.Droid
 {
@@ -21,6 +22,8 @@ namespace Phoneword.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+
+            ConnectivityManager connectivityManager = (ConnectivityManager)GetSystemService(ConnectivityService);
         }
     }
 }

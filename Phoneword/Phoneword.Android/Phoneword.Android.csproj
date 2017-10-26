@@ -121,6 +121,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PhoneNetwork.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="PhoneDialer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

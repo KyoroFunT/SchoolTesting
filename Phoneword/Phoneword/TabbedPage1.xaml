@@ -4,7 +4,7 @@
              x:Class="Phoneword.TabbedPage1">
   <!--Pages can be added as references or inline-->
     <ContentPage Title="Tab 1">
-        <Button x:Name="translateButon" Text="Translate"/>
+        <Button x:Name="translateButon" Text="Translate" Clicked="translateButon_Clicked"/>
     </ContentPage>
     <ContentPage Title="Tab 2">
         <Button x:Name="translateButon2" Text="Translate"/>

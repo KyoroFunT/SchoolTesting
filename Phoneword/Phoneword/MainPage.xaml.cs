@@ -53,5 +53,13 @@ namespace Phoneword
         {
             await Navigation.PushAsync(new CallHistoryPage());
         }
+
+        async void getNetworkButton_Clicked(object sender, EventArgs e)
+        {
+            var network = DependencyService.Get<INetwork>();
+
+            string networkstatus = network.getNetwork();
+            await this.DisplayAlert("Network", $"The network state is {networkstatus}", "ok");
+        }
     }
 }

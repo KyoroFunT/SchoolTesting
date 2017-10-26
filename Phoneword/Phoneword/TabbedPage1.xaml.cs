@@ -19,5 +19,13 @@ namespace Phoneword
             //guthub test
             //laptop test
         }
+
+        async void translateButon_Clicked(object sender, EventArgs e)
+        {
+            var network = DependencyService.Get<INetwork>();
+
+            string networkstatus = network.getNetwork();
+            await this.DisplayAlert("Network", $"The network state is {networkstatus}", "ok");
+        }
     }
 }
