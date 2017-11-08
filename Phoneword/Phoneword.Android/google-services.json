@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "40089167415",
+    "firebase_url": "https://phoneword-185418.firebaseio.com",
+    "project_id": "phoneword-185418",
+    "storage_bucket": "phoneword-185418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40089167415:android:6a9dfbe57df904c9",
+        "android_client_info": {
+          "package_name": "com.companyname.Phoneword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40089167415-9scve7jf4r7gg6h3fbfhf2063b5qrtmu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.companyname.Phoneword",
+            "certificate_hash": "f3c62b0969528a22297c3722c43975a0de3aa8c4"
+          }
+        },
+        {
+          "client_id": "40089167415-4l99ttqm16fnke5ugkgiaie7ftmd3ice.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJq5HbfDfHIzVUyNFsIGRTTZ1PFwZmzYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40089167415-4l99ttqm16fnke5ugkgiaie7ftmd3ice.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
