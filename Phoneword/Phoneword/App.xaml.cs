@@ -18,8 +18,9 @@ namespace Phoneword
         {
             InitializeComponent();
             PhoneNumbers = new List<string>();
-            MainPage = new NavigationPage(new MainPage());
+            //MainPage = new NavigationPage(new MainPage());
             //MainPage = new TabbedPage1();
+            MainPage = new MasterDetailPage1();
         }
 
         protected override void OnStart()

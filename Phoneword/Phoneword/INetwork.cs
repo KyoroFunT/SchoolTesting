@@ -8,6 +8,7 @@ namespace Phoneword
 {
     public interface INetwork
     {
+
         string getNetwork();
     }
 }
