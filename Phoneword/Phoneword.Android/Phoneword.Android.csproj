@@ -141,6 +141,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PhoneFirebaseAuth.cs" />
     <Compile Include="PhoneNetwork.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="PhoneDialer.cs" />

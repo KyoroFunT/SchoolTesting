@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "40089167415-dtee20ir4ksameq8rl6nksi3gtmb363n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.companyname.Phoneword",
+            "certificate_hash": "bf1033dd72b27081a16f21c5a7770282c930324c"
+          }
+        },
+        {
           "client_id": "40089167415-9scve7jf4r7gg6h3fbfhf2063b5qrtmu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

@@ -24,18 +24,12 @@ namespace Phoneword.Droid
 
         public string getNetwork()
         {
-           
-
             Context context = Xamarin.Forms.Forms.Context;
             ConnectivityManager cm = (ConnectivityManager)context.GetSystemService(Context.ConnectivityService);
             NetworkInfo connection = cm.ActiveNetworkInfo;
             connection.ToString();
 
-
             return connection.ToString();
-
         }
-
-        
     }
 }

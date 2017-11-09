@@ -16,5 +16,12 @@ namespace Phoneword
         {
             InitializeComponent();
         }
+
+        private void btnRegister_Clicked(object sender, EventArgs e)
+        {
+            var firebaseAuth = DependencyService.Get<IFirebaseAuth>();
+
+            firebaseAuth.CreateNewUser();
+        }
     }
 }
