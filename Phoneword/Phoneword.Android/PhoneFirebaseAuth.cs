@@ -11,16 +11,16 @@ using Android.Views;
 using Android.Widget;
 using Phoneword.Droid;
 using Xamarin.Forms;
-using Firebase;
 using Firebase.Auth;
+using Firebase;
 using Android.Net;
-using Android.Content;
 
 [assembly: Dependency(typeof(PhoneFirebaseAuth))]
 namespace Phoneword.Droid
 {
     class PhoneFirebaseAuth : IFirebaseAuth
     {
+        private FirebaseAuth auth;
         public bool InitFirebaseAuth()
         {
             var options = new FirebaseOptions.Builder()
@@ -33,9 +33,10 @@ namespace Phoneword.Droid
 
         public void CreateNewUser()
         {
-            var context = Forms.Context;
-            FirebaseApp.InitializeApp(context);
-            FirebaseAuth.Instance.CreateUserWithEmailAndPassword("KevinTest", "test123");
+            //var context = Forms.Context;
+            //var app = FirebaseApp.InitializeApp(context);
+            //auth = FirebaseAuth.GetInstance(app);
+            //auth.CreateUserWithEmailAndPassword("KevinTest", "test123");
         }
 
     }
